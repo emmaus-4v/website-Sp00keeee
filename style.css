@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     background-color: #EEEEEE;  
     
-    color: #303030;
+    color: #000000;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -23,18 +23,13 @@ article {
 
 
 header {
-    color: skyblue;
+    color: rgb(170, 34, 0);
     text-align: center;
 }
 
 p{
     text-align: left;
     padding-left: 15px;
-}
-
-p.footer {
-    text-align: center;
-    padding-bottom: 10px;
 }
 
 /* specifieke stijlen */
@@ -46,7 +41,12 @@ img.zweefRechts {
 
 img.zweefLinks{
     float: left;
-    margin: 15px;
+    margin-right: 15px;
+}
+
+p.footer {
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 p.smalltext.footer {
@@ -54,7 +54,7 @@ p.smalltext.footer {
 }
 
 a {
-    color: skyblue;
+    color: blue;
     text-decoration: none;
 }
 
