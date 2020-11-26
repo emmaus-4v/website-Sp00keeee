@@ -30,6 +30,7 @@ header {
 p{
     text-align: left;
     padding-left: 15px;
+    padding-bottom: 10px;
 }
 
 /* specifieke stijlen */
@@ -37,16 +38,19 @@ p{
 img.zweefRechts {
     float: right;
     margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 img.zweefLinks{
     float: left;
     margin-right: 15px;
+    margin-bottom: 10px;
 }
 
 p.footer {
     text-align: center;
     padding-bottom: 10px;
+    font-family: monospace;
 }
 
 p.smalltext.footer {
@@ -85,7 +89,7 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    padding: white 15px;
+    border: 1px solid #EEEEEE;
 }
 
 nav li a:hover {
