@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(20, 20, 20);  
     
     color: #000000;
     font: Verdana, Arial, Sans-Serif;
@@ -29,6 +29,7 @@ header {
 
 p{
     text-align: left;
+    color: rgb(139, 139, 139);
     padding-left: 15px;
     padding-bottom: 10px;
 }
@@ -39,18 +40,22 @@ img.zweefRechts {
     float: right;
     margin-left: 15px;
     margin-bottom: 10px;
+    width: 40%;
+    height: 35%;
 }
 
 img.zweefLinks{
     float: left;
     margin-right: 15px;
     margin-bottom: 10px;
+    width: 40%;
+    height: 35%;
 }
 
 p.footer {
     text-align: center;
     padding-bottom: 10px;
-    font-family: monospace;
+    font-family: monospace, sans-serif;
 }
 
 p.smalltext.footer {
@@ -80,7 +85,7 @@ nav ul {
 nav ul li {
     float: left;
     width: 140px;
-    height: 46px;
+    height: 48px;
 }
 
 nav li a {
@@ -89,7 +94,7 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border: 1px solid #EEEEEE;
+    border: 1px double #EEEEEE;
 }
 
 nav li a:hover {
