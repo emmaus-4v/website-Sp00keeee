@@ -37,6 +37,13 @@ p{
 
 /* specifieke stijlen */
 
+li.Rechts{
+    text-align: justify;
+    color: rgb(139, 139, 139);
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
 img.zweefRechts {
     float: right;
     margin-left: 15px;
@@ -53,8 +60,12 @@ img.zweefLinks{
     height: 300px;
 }
 
+img#Colosseum{
+    height: 250px;
+}
+
 img#soldaat{
-    width: 250px;
+    width: 200px;
 }
 
 img#Augustus{
