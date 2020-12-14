@@ -59,6 +59,34 @@ p{
     animation: veranderKleur 20s infinite;
 }
 
+@keyframes vliegInLinks{
+    0% {
+        left: -1000px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes vliegInRechts{
+    0% {
+        right: -1000px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+.vliegInRechts{
+    position: relative;
+    animation: vliegInRechts 3s;
+}
+
+.vliegInLinks{
+    position: relative;
+    animation: vliegInLinks 3s;
+}
+
 /* specifieke stijlen */
 
 li.Rechts{
