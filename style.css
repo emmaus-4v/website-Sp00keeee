@@ -4,7 +4,6 @@ html, body {
     height: 100%;
     padding: 0;
     background-color: rgb(20, 20, 20);  
-    
     color: #000000;
     font: Verdana, Arial, Sans-Serif;
 }
@@ -152,6 +151,14 @@ a:hover {
     text-decoration: underline;
 }
 
+.link{
+    background-color: #880000;
+    font: Verdana, Arial, Sans-Serif;
+    text-align: left;
+    color: rgb(139, 139, 139);
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
 
 /* navigatiebalk */
 
